@@ -14,7 +14,8 @@ import java.util.Scanner;
 public class Actividad4 {
 
     /**
-     * @param args the command line arguments
+     * Factorial de un numero ingresado
+     * Factoriales
      */
     public static void factorial(){
         int numero = 10;
@@ -25,6 +26,10 @@ public class Actividad4 {
         }
         System.out.println("El Factorial de 10 es " + factorial);
     }
+    /**
+     * Operacion suma de y promedio de un numero
+     * Suma y factorial
+     */
     public static void suma(){
         Scanner miConsola = new Scanner( System.in);
         System.out.println("Ingrese un numero");
@@ -39,6 +44,13 @@ public class Actividad4 {
         System.out.println("La suma consecutiva del 0 al "+num1 +  " es: "+num);
         System.out.println("Y la media es: "+ (num/(num1+1)));
     }
+    /**
+     * Ingresar los numeros
+     * Media de un numero
+     * Suma de un numero
+     * Distancia entre los numeros
+     * Distinguir menor y mayode los numeros ingresados
+     */
     public static void media(){
     Scanner miConsola = new Scanner( System.in);
         System.out.println("Ingrese cuanto numeros calcular");
@@ -74,6 +86,10 @@ public class Actividad4 {
     public static void imprimirMensaje(String msg){
             System.out.println(msg);
     }
+    /**
+     * Menu
+     * @param args 
+     */
     public static void main(String[] args) {
         int num;
         do {
